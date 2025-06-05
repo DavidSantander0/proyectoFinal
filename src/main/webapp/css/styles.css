@@ -1,0 +1,104 @@
+/* 🔹 Estilo general */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* 🔹 Encabezado */
+header {
+    background: linear-gradient(90deg, #007bff, #0056b3);
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 1.5rem;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* 🔹 Botones */
+.btn-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.btn {
+    background: #007bff;
+    color: white;
+    padding: 12px 18px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    margin: 0 10px;
+}
+
+.btn:hover {
+    background: #0056b3;
+    transform: scale(1.08);
+}
+
+/* 🔹 Tabla */
+#tabla-datos {
+    width: 90%;
+    max-width: 1200px;
+    margin: 20px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background: #007bff;
+    color: white;
+}
+
+tr:hover {
+    background: rgba(0, 123, 255, 0.15);
+}
+
+/* 🔹 Modo Oscuro */
+.dark-mode {
+    background-color: #222;
+    color: white;
+}
+
+.dark-mode header {
+    background: #333;
+}
+
+.dark-mode table {
+    background: #444;
+}
+
+.dark-mode th {
+    background: #555;
+}
+
+.dark-mode tr:hover {
+    background: rgba(255, 255, 255, 0.15);
+}
+
+/* 🔹 Pie de página */
+footer {
+    text-align: center;
+    padding: 15px;
+    background: #222;
+    color: white;
+    font-size: 0.9rem;
+}
